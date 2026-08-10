@@ -35,7 +35,7 @@
 		    appendString += `, <a href="${slideurl}">s</a>`;
 		appendString += `</sup></span></div><div style="display:none">
           <div id="${mhash}">
-            <video ${videoposter_tag} width="100%" height="100%"
+            <video preload="none" ${videoposter_tag} width="100%" height="100%"
 	      controls>
               <source src="${media.url}" type="${media.mime}" />
             </video>
